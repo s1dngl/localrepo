@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <!-- box 1 -->
+        <div class="amazon-logo border">
+            <div class="logo"> </div>
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="nav-address border">
+            <p id="deliver"> deliver to</p>
+            <div class="address-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p id="country"> india</p>
+            </div>
+        </div>
+
+
+        <!--  box 3 -->
+        <div class="nav-search">
+            <select id="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder="search items" id="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+
+        <!-- box 4 -->
+
+        <!--
+Professional Note:
+A custom <div> is used instead of a native <select> because <select> cannot reliably display images (such as country flags) or be fully customized across browsers. Professional websites like Amazon build custom dropdowns using HTML, CSS, and JavaScript.
+
+<span> is an inline element used to wrap small pieces of text (like "EN") so they can be styled individually without creating a new line.
+-->
+
+        <div class="nav-select-country border">
+            <img src="england_flag.png" class="flag">
+            <span>EN</span>
+        </div>
+
+        <!-- box 5 -->
+        <div class="accounts border">
+            <p><span> hello,sign in</span></p>
+            <p id="box5and6"> Accounts & Lists</p>
+
+        </div>
+
+        <!-- box 6 -->
+        <div class="return border">
+            <p><span> Returns</span></p>
+            <p id="box5and6"> & orders</p>
+
+        </div>
+
+        <!-- box 7 -->
+
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            cart
+        </div>
+    </div>
+    <!--  end of navbar -->
+
+
+
+    <!-- begining of the panel after nav bar -->
+
+    <div class="panel">
+        <!-- 1st panel\box -->
+        <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+
+        <!-- 2nd panel/box -->
+        <div class="panel-ops">
+            <p> Today's Deals</p>
+            <p> Customer Service</p>
+            <p> Registery</p>
+            <p> Gift Cards</p>
+            <p> Sell</p>
+        </div>
+
+        <!--  3rd panel/box -->
+
+        <div class="panel-deals">
+
+            Shop deals in Electronics
+        </div>
+    </div>
+
+
+    <!-- hero section/body part -->
+    <div class="hero-section">
+
+        <div class="hero-text">
+            <p>you are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                delivery. <a href="#"> click here to go to amazon.in</a></p>
+        </div>
+    </div>
+    <!-- end of  panel -->
+
+    <!-- rest body section  -->
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Garments </h2>
+                <div class="box-image1 styleboximages"></div>
+                <P>see more</P>
+            </div>
+
+
+
+
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2>
+                <div class="box-image2 styleboximages"></div>
+                <P>see more</P>
+            </div>
+
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2> Furniture </h2>
+                <div class="box-image3 styleboximages"></div>
+                <P>see more</P>
+            </div>
+
+
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2> Electronics </h2>
+                <div class="box-image4 styleboximages"></div>
+                <P>see more</P>
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="foot-panel1">
+
+            Back to Top
+        </div>
+         <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+         
+             <ul>
+                <p>Get to Know Us</p>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+
+             <ul>
+                <p>Get to Know Us</p>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+
+             <ul>
+                <p>Get to Know Us</p>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+        
+        
+        </div>
+
+    </footer>
+</body>
+
+</html>
